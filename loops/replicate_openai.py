@@ -15,7 +15,7 @@ load_dotenv()
 class ImageGenerator:
     def __init__(self) -> str:
         self.image_url: str
-        openai.api_key = "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"
+        openai.api_key = "..."
         self.APIKey = openai.api_key
         self.name = None
 
